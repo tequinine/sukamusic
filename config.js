@@ -1,6 +1,6 @@
 module.exports = {
     app: {
-        px: 'star!',
+        px: 's.',
         token: 'OTczOTkxMjQ4NTUxNjI0NzA0.GpqR2x.Ax8xdNw_JgiFNFD4VANm0UWUOG3GNtat0a8eNg',
         playing: 'by Psycho ❤️'
     },
