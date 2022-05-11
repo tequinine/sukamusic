@@ -1,19 +1,13 @@
-exports.run = async (client, message, args) => {
-    if (!message.member.roles.cache.some(r=>["Staff", "Moderator", "Admin"].includes(r.name)))
-    return message.reply("you don't have permission!");
+module.exports = {
+    name:'delete',
+    aliases: "d",
+    utilisasion: '{prefix}delete',
 
-    let totalDelMsg = parseint(args[0]) + 1;
-    let apagadas = totalDelMsg - 1;
+    execute(message, args) {
+        if(!args[0]) return message.reply("please enter the amount of messages that you want to clear!");
+        if(isNaN(args[0])) return message.reply("please enter a real number");
 
-    async function clear () {
-        try {
-            message.delete();
-            message.channel.bulkDelete(totalDelMsg);
-            message.reply(`${apagadas} deleted messages`)
-        } catch(e) {
-            return message.reply("something wrong");
-        }
+        if(args[0] > 100) return message.reply("You cannot delete delete more than 100 messages!");
+        if(args[0] < 1) return message.reply("You must delete atleast one message!");
     }
-
-    clear();
 }
