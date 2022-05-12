@@ -2,7 +2,7 @@ module.exports = {
     app: {
         px: 's.',
         token: 'XXX',
-        watching: 'Amor para o Psycho ❤️'
+        watching: 'Amor para o meu dono ❤️ @psycho#7769'
     },
 
     opt: {
