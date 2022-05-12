@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         px: 's.',
-        token: 'OTc0MDkyNzg0NjY1NTIyMjM3.Gq5F75.4TGsL5PiYuLtGsfj-tvh4sE5nkR2kQ2VahBDSE',
+        token: 'XXX',
         watching: 'Amor para o Psycho ❤️'
     },
 
