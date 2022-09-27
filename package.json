@@ -1,7 +1,7 @@
 {
   "name": "music-bot",
   "main": "main.js",
-  "author": "Psycho",
+  "author": "forget",
   "version": "6.0.0",
   "repository": "https://github.com/psyccho/sukamusic.git",
   "description": "A complete code to download for a cool Discord music bot.",
